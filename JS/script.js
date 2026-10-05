@@ -33,3 +33,13 @@ function clearUser(){
 
     document.getElementById("message").textContent = "";
 }
+
+
+function showWelcome(name){
+    const message = document.querySelector("#message");
+
+    message.textContent = `Welcome ${name}`;
+    
+}
+
+showWelcome(David)
